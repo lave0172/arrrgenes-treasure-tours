@@ -36,9 +36,22 @@ html {
   border-bottom-color: #fff;
 }
 
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid #fff;
+  outline-offset: 0;
+}
+
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
 }
 
 .card {
